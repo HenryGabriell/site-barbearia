@@ -9,7 +9,7 @@
 
 /* header principal */
 header{
-    background-image: url(imagens/background-principal.jpg);
+    background-image:  url(imagens/background-principal.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -58,7 +58,24 @@ header{
     align-items: center;
     flex-direction: column;
     padding-top: 3%;
+    
 }
+
+.container-2 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-2 .cards .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
 
 h2{
     color: white;
@@ -71,5 +88,28 @@ h2{
     cursor: pointer;
  }
 
+.img-back{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); 
+}
 
- 
+.img-front{
+    width: 125px;
+    height: 125px;
+
+}
+
+.img-front, h3{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+    font-family: 'contrail one';
+    margin-top: 73%;
+}
+
+
