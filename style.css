@@ -53,13 +53,15 @@ header{
 
 .container-2{
     background: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 3%;
 }
 
 h2{
     color: white;
-    justify-content: center;
-    display: flex;
     font-family:'Contrail One';
     font-size: 40px;
     letter-spacing: 1px;
