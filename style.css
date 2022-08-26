@@ -34,7 +34,7 @@ header{
     color: white;
     padding-top: 20%;
     padding-left: 10%;
-    font-family:'Kalam';
+    font-family:'Kalam', 'cursive';
 }
 
 .text-header h1{
@@ -79,7 +79,7 @@ header{
 
 h2{
     color: white;
-    font-family:'Contrail One';
+    font-family:'Contrail One', 'cursive';
     font-size: 40px;
     letter-spacing: 1px;
  }
@@ -108,8 +108,48 @@ h2{
 
 h3{
     color: white;
-    font-family: 'contrail one';
+    font-family: 'contrail one', 'cursive';
     margin-top: 73%;
 }
 
 
+/* <!--container 3: time--> */
+
+.container-3{
+    background: #1d1d1d;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.container-box{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+    flex-direction: row-reverse;
+    height: 80vh;
+    margin-top: -3%;
+}
+
+.container-box p{
+    color: white;
+    font-size: 34px;    
+    margin-right: 5%;
+    font-family: 'Kalam', 'cursive';
+}
+
+.container-box img{
+    width: 500px;
+}
+
+#h2-time{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/* <!--container 4: Galeria--> */
+
+.container-4{
+    background: #1d1d1d;
+}
