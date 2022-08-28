@@ -68,7 +68,6 @@ header{
     align-items: center;
     flex-direction: column;
     padding-top: 3%;
-    
 }
 
 .container-2 .cards{
@@ -76,6 +75,10 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.container-2 .cards .card:hover{
+    margin-top: 13px ;
 }
 
 .container-2 .cards .card{
