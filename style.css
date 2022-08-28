@@ -41,7 +41,7 @@ header{
 
 .text-header{
     color: white;
-    padding-top: 20%;
+    padding-top: 200px;
     padding-left: 10%;
     font-family:'Kalam', 'cursive';
 }
@@ -52,8 +52,8 @@ header{
 
 
 .text-header p{
-    margin-top: -3%;
-    margin-left: 3%;
+    margin-top: -20px;
+    margin-left: 30px;
     width: 430px;
     font-size: 30px;
     line-height: 120%;
@@ -226,4 +226,62 @@ footer{
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
+}
+
+
+/* MEDIA- RESPONSIVIDADE: */
+
+@media (max-width: 950px){
+    .container-box p{
+        font-size: 2.3vw; 
+    }
+}
+
+
+@media (max-width: 850px){
+    .container-box{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .container-box p{
+        max-width: 400px;
+        font-size: 22px;
+        margin:auto;
+        margin-top: 20px;
+    }
+    .container-4{
+        padding-top: 10%;
+    }
+    /* .div-contato{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+
+
+    /* .container-box{
+        margin-top: ;
+        padding-bottom: ;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .container-box p{
+        max-width: 400px;
+        font-size: 22px;
+        margin:auto;
+        margin-top: 20px;
+    }
+    .div-contato{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-4 .div-contato iframe{
+        margin-top: 20px;
+    }
+    .input-row{
+        margin-top: -3%;
+    }
+    .container-box img{
+        width: 80%;
+    } */
 }
