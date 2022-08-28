@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 /* header principal */
 header{
     background-image:  url(imagens/background-principal.jpg);
@@ -176,7 +180,8 @@ h3{
     font-size: 1em;
     color: white;
     margin: 18px 0px 18px 0px;
-    
+    font-family: 'contrail one';
+    font-weight: 200;
 }
 
 input::placeholder{
