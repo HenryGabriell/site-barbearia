@@ -168,7 +168,7 @@ h3{
 
 .container-4 .div-contato .input-row input {
     padding: 20px 30px;
-    width: 100%;
+    width: 110%;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.05);
     border: none;
@@ -188,3 +188,27 @@ input::placeholder{
     justify-content: center;
 }
 
+/*FOOTER*/
+
+footer{
+    background: #1d1d1d;
+    padding-top: 30px;
+}
+
+.fim a{
+    color: white;
+    text-decoration: none;
+}
+.fim a:hover{
+    text-decoration: underline;
+}
+
+.fim p{
+    color: white;
+}
+
+.fim{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
