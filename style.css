@@ -29,9 +29,14 @@ header{
 }
 
 .itens-menu a{
-    padding: 20px;
+    margin: 20px 60px 0px 60px;
     text-decoration: none;
     color: white;
+}
+
+.itens-menu a:hover{
+    margin-top: 17px;
+    color: rgba(255, 255, 255, 0.801);
 }
 
 .text-header{
@@ -44,6 +49,7 @@ header{
 .text-header h1{
     font-size: 83px;
 }
+
 
 .text-header p{
     margin-top: -3%;
