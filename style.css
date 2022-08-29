@@ -293,7 +293,8 @@ footer{
         margin-top: 10px;
     }
     .text-header{
-        padding-top: 240px;
+        /* padding-top: 240px; */
+        padding-top: 70%;
         justify-content: center;
     }
     .text-header h1{
