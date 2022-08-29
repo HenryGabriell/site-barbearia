@@ -77,10 +77,6 @@ header{
     flex-wrap: wrap;
 }
 
-.container-2 .cards .card:hover{
-    margin-top: 13px ;
-}
-
 .container-2 .cards .card{
     position: relative;
     display: flex;
@@ -239,6 +235,12 @@ footer{
 
 
 @media (max-width: 850px){
+    .text-header h1{
+        font-size: 70px;
+    }
+    .text-header p{
+        font-size: 25px;
+    }
     .container-box{
         flex-direction: column;
         margin-top: 20px;
@@ -246,42 +248,67 @@ footer{
     .container-box p{
         max-width: 400px;
         font-size: 22px;
-        margin:auto;
         margin-top: 20px;
+        margin: auto;
     }
     .container-4{
         padding-top: 10%;
     }
-    /* .div-contato{
-        display: flex;
-        flex-direction: column-reverse;
-    } */
-
-
-    /* .container-box{
-        margin-top: ;
-        padding-bottom: ;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-    .container-box p{
-        max-width: 400px;
-        font-size: 22px;
-        margin:auto;
-        margin-top: 20px;
-    }
     .div-contato{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    .container-4 .div-contato .input-row{
+        margin-top: 30px;
     }
     .container-4 .div-contato iframe{
-        margin-top: 20px;
+        width: 80%;
     }
-    .input-row{
-        margin-top: -3%;
+}
+@media (max-width: 650px){
+    .itens-menu a{
+        margin: 20px 30px 0px 30px;
+    }
+    .text-header h1{
+        font-size: 60px;
+    }
+    .text-header p{
+        font-size: 19px;
+        width: 300px;
+    }
+    .text-header{
+        padding-left: 5%;
+    }
+    .container-3{
+        padding-bottom: 20px;
     }
     .container-box img{
-        width: 80%;
-    } */
+        width: 80vw;
+    }
+    .container-4 .div-contato .input-row input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    .text-header h1{
+        font-size: 13.5vw;
+    }
+    .text-header p{
+        font-size: 5vw;
+    }
+    .itens-menu a{
+        margin: 15px 20px 0px 15px;
+        font-size: 15px;
+    }
+    .container-3{
+        padding-bottom: 0px;
+    }
+    .container-box p{
+        font-size: 20px;
+    }
+    .container-4 .div-contato {
+        
+    }
+    
 }
