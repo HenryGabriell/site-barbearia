@@ -288,6 +288,9 @@ footer{
     .container-4 .div-contato .input-row input{
         width: 100%;
     }
+    .container-2 h2{
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 450px){
@@ -302,13 +305,13 @@ footer{
         font-size: 15px;
     }
     .container-3{
-        padding-bottom: 0px;
+        /* padding-bottom: 0px; */
     }
     .container-box p{
         font-size: 20px;
     }
     .text-header{
-        padding-top: 55%;
+        padding-top: 70%;
     }
     
 }
