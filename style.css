@@ -135,7 +135,6 @@ h3{
     align-items: center;
     margin: 0px 50px 0px 50px;
     flex-direction: row-reverse;
-    height: 80vh;
     margin-top: -3%;
 }
 
@@ -249,11 +248,10 @@ footer{
         max-width: 400px;
         font-size: 22px;
         margin-top: 20px;
-        margin: auto;
     }
-    .container-4{
+    /* .container-4{
         padding-top: 10%;
-    }
+    } */
     .div-contato{
         display: flex;
         flex-direction: column;
