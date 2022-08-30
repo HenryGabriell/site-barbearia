@@ -135,7 +135,7 @@ h3{
     align-items: center;
     margin: 0px 50px 0px 50px;
     flex-direction: row-reverse;
-    margin-top: -3%;
+    margin-top: 3%;
 }
 
 .container-box p{
@@ -161,6 +161,7 @@ h3{
 
 .container-4{
     background: #1d1d1d;
+    padding-top: 5%;
 }
 
 .div-contato{
@@ -250,7 +251,7 @@ footer{
         margin-top: 20px;
     }
     /* .container-4{
-        padding-top: 10%;
+        padding-top: 5%;
     } */
     .div-contato{
         display: flex;
