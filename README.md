@@ -1,9 +1,12 @@
  # Barbearia
   
-Projeto Site Barbearia Responsiva
+Projeto Site Barbearia
 <br>
 <br>
-open source 👍
+Responsivo 👍
+<br>
+<br>
+Primeiro site feito 100% por mim, utilizei apenas minhas anotações de estudos.
 <br>
 <br>
 Da uma olhada:  https://henrygabriell.github.io/site-barbearia/
